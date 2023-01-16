@@ -1,0 +1,61 @@
+.solar-system {
+  margin: 0 auto;
+  width: 916px;
+}
+
+.lesson {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #000;
+}
+
+.main-title {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  color: #000;
+  margin-bottom: 55px;
+}
+
+.planet-list {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.planet-img--center {
+  text-align: center;
+}
+
+.planet-img--right {
+  text-align: right;
+}
+
+.planet-name {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  color: #000;
+}
+
+.planet-name--right {
+  text-align: right;
+}
+
+.planet-name--center {
+  text-align: center;
+}
+
+.planet-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000;
+}
+
+.planet-description--center {
+  text-align: center;
+}

@@ -1,0 +1,45 @@
+table {
+  border-spacing: 10px;
+}
+
+td {
+  padding: 15px;
+  text-align: center;
+  border: 1px solid #000;
+  margin: 5px;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.empty {
+  border: none;
+}
+
+span {
+  display: block;
+}
+
+.num,
+.name {
+  font-size: 10px;
+}
+
+.blue {
+  background-color: #487bde;
+}
+
+.purple {
+  background-color: #9328fe;
+}
+
+.red {
+  background-color: #ff4343;
+}
+
+.darkorange {
+  background-color: #ff7043;
+}
+
+.lightblue {
+  background-color: #1b99c1;
+}
