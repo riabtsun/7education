@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="117478c1-fc5e-4432-a9c3-f30e34bbaa69" name="Changes" comment="third js hw">
-      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/1/script2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/4/4.1/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/4/4.1/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/4/4.2/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/4/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/4/script.js" afterDir="false" />
+    <list default="true" id="117478c1-fc5e-4432-a9c3-f30e34bbaa69" name="Changes" comment="fourth js hw">
+      <change afterPath="$PROJECT_DIR$/JS/5/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/5/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/1/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/1/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/4/4.2/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/4/4.2/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +94,10 @@
       <workItem from="1679331492896" duration="4054000" />
       <workItem from="1679985186204" duration="5727000" />
       <workItem from="1680072757421" duration="6878000" />
-      <workItem from="1680502309325" duration="5174000" />
+      <workItem from="1680502309325" duration="5921000" />
+      <workItem from="1680519650393" duration="3630000" />
+      <workItem from="1681462210898" duration="9298000" />
+      <workItem from="1681474016493" duration="1145000" />
     </task>
     <task id="LOCAL-00001" summary="second homework">
       <created>1673890664371</created>
@@ -109,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673890664371</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fourth js hw">
+      <created>1680519509920</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680519509920</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +123,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="second homework" />
     <MESSAGE value="third js hw" />
-    <option name="LAST_COMMIT_MESSAGE" value="third js hw" />
+    <MESSAGE value="fourth js hw" />
+    <option name="LAST_COMMIT_MESSAGE" value="fourth js hw" />
   </component>
 </project>
