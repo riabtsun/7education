@@ -8,19 +8,20 @@ class Card {
     this.productDescription = description;
   }
 }
-let products = [];
 
 async function createCards() {
   const response = await fetch(url);
   const data = await response.json();
-  // console.log(data);
 
+  let products = [];
   data.forEach((card) => {
     products.push(
-      new Card(card.title, card.image, card.price, card.description)
+      new Card(card.title, card.image, card.productPrice, card.description)
     );
   });
+
   console.log(products);
+
   products.forEach((card) => {
     document.write(`
               <div class="card" style="width: 18rem;">
