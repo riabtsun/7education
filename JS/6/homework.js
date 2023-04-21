@@ -9,12 +9,12 @@
 //   https://storage.googleapis.com/www.examclouds.com/oop/car-ierarchy.png
 
 class Car {
-  constructor(brand, carClass, weight) {
+  constructor(brand, carClass, weight, driver, engine) {
     this.brand = brand;
     this.carClass = carClass;
     this.weight = weight;
-    this.driver = new Driver();
-    this.engine = new Engine();
+    this.driver = driver;
+    this.engine = engine;
   }
 
   start() {
@@ -36,7 +36,7 @@ class Car {
     Вага автомобіля - ${this.weight}
     Ім'я водія - ${this.driver.name}
     Призвіще водія - ${this.driver.surname}
-    Стаж водія - ${this.driver.stage}
+    Стаж водія - ${this.driver.stage} років
     Виробник двигуна - ${this.engine.factory}
     Потужність двигуна - ${this.engine.power}
     `);
@@ -72,5 +72,11 @@ class SportCar extends Car {
   }
 }
 
-const man = new Car(1, 2, 3);
-man.toString();
+const Volvo = new Car(
+  'Volvo',
+  'Truck',
+  '20000 kg',
+  new Driver('Petro', 'Roshen', '20'),
+  new Engine('200 horses', 'MAN')
+);
+Volvo.toString();
