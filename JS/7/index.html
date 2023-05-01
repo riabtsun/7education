@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            font-size: 1.3rem;
+        }
+
+        pre {
+            background: silver;
+
+        }
+
+        .green {
+            color: green;
+        }
+
+        li:nth-child(odd) {
+            background: #e1e6e5;
+            margin: 1rem 0;
+        }
+        .secondTask {
+            padding: 20px;
+            display: flex;
+            gap: 10px;
+        }
+        .secondTaskDiv {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+<ol>
+
+    <li>Створіть 2 інпути та одну кнопку. Зробіть так, щоб інпути обмінювалися вмістом.
+
+    </li>
+    <li>
+        Створіть 5 див на сторінці потім використовуючи getElementsByTagName і forEath поміняйте дивам колір фону.
+
+
+    </li>
+    <li>
+        Створіть багаторядкове поле для введення тексту та кнопки. Після натискання кнопки користувачем програма повинна
+        згенерувати тег div з текстом, який був у багаторядковому полі. багаторядкове поле слід очистити після
+        переміщення інформації
+    </li>
+    <li>
+        Створіть картинку та кнопку з назвою "Змінити картинку"
+        зробіть так щоб при завантаженні сторінки була картинка
+        https://itproger.com/img/courses/1476977240.jpg
+        При натисканні на кнопку вперше картинка замінилася на
+        https://itproger.com/img/courses/1476977488.jpg
+        при другому натисканні щоб картинка замінилася на
+        https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png
+    </li>
+    <li>
+        Створює на сторінці 10 парахрафів і зробіть так, щоб при натисканні на параграф він зникав
+
+    </li>
+    <li>
+        Зробити робочими кнопки з виводом відповідних дій на сторінку приклад 008_DOM
+    </li>
+</ol>
+<div>
+    <h2>1 task</h2>
+    <input type="text" name="" id="input1">
+    <input type="text" name="" id="input2">
+    <button id="changeBtn">Change inputs value</button>
+</div>
+<div class="secondTask">
+    <h2>2 task</h2>
+    <div class="secondTaskDiv"></div>
+    <div class="secondTaskDiv"></div>
+    <div class="secondTaskDiv"></div>
+    <div class="secondTaskDiv"></div>
+    <div class="secondTaskDiv"></div>
+</div>
+<div class="thirdTask">
+    <h2>3 task</h2>
+    <input type="text" class="thirdTaskInput">
+    <button class="createBlockBtn">Create div</button>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
