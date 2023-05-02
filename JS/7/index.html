@@ -24,11 +24,13 @@
             background: #e1e6e5;
             margin: 1rem 0;
         }
+
         .secondTask {
             padding: 20px;
             display: flex;
             gap: 10px;
         }
+
         .secondTaskDiv {
             width: 100px;
             height: 100px;
@@ -108,6 +110,70 @@
     <p class="paragraph">Unde, voluptatibus voluptatum? Consequuntur, tempora.</p>
     <p class="paragraph">Aliquid explicabo in nemo nostrum.</p>
 </div>
+<div class="sixthTask">
+    <h2>6 task</h2>
+    <ul id="list">
+        <li>List Item 1</li>
+        <li>List Item 2</li>
+        <li>List Item 3</li>
+        <li>List Item 4</li>
+        <li>List Item 5</li>
+    </ul>
+    <br/>
+    <input type="button" onclick="selectFirstChild()" style="width: 300px;"
+           value="Выбрать первый элемент"/><br/>
+    <input type="button" onclick="selectLastChild()" style="width: 300px;"
+           value="Выбрать последний элемент"/><br/>
+    <input type="button" onclick="selectNextNode()" style="width: 300px;"
+           value="Выбрать следующий элемент"/><br/>
+    <input type="button" onclick="selectPrevNode()" style="width: 300px;"
+           value="Выбрать предыдущий элемент"/><br/>
+    <input type="button" onclick="createNewChild()" style="width: 300px;"
+           value="Добавить элемент"/><br/>
+    <input type="button" onclick="removeLastChild()" style="width: 300px;"
+           value="Удалить элемент"/><br/>
+    <input type="button" onclick="createNewChildAtStart()" style="width: 300px;"
+           value="Добавить  в начало"/><br/>
+</div>
 <script src="script.js"></script>
+<script>
+  const list = document.querySelector('#list')
+  let counter = 0
+  selectFirstChild = () => {
+    list.children[0].style.background !== 'red' ? list.children[0].style.background = 'red' : list.children[0].style.background = 'inherit'
+  }
+  selectLastChild = () => {
+    list.children[list.children.length - 1].style.background !== 'red' ?
+      list.children[list.children.length - 1].style.background = 'red' :
+      list.children[list.children.length - 1].style.background = 'inherit'
+  }
+  selectNextNode=()=>{
+    list.children[counter].style.background !== 'red' ?
+      list.children[counter].style.background = 'red' :
+      list.children[counter].style.background = 'inherit'
+    counter+=1
+  }
+  selectPrevNode=()=>{
+    list.children[counter].style.background !== 'red' ?
+      list.children[counter].style.background = 'red' :
+      list.children[counter].style.background = 'inherit'
+    counter-=1
+  }
+  createNewChild=()=>{
+    let newItemList = document.createElement('li')
+    newItemList.innerHTML = `list item ${list.children.length+1}`
+    list.append(newItemList)
+  }
+  removeLastChild=()=>{
+     list.children[list.children.length-1].remove()
+  }
+  createNewChildAtStart=()=>{
+    let newListItem = document.createElement('li')
+    newListItem.innerHTML = `new list item`
+    let theFirstChild = list.firstChild
+    list.insertBefore(newListItem, theFirstChild)
+  }
+
+</script>
 </body>
 </html>
