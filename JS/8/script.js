@@ -22,8 +22,6 @@ const startBtn = timerBtns.firstElementChild;
 const resetBtn = timerBtns.lastElementChild;
 const stopBtn = startBtn.nextElementSibling;
 
-let displaySeconds = 0;
-
 let timeCounter = 0;
 let timerInterval;
 let ms = timerDisplay.lastElementChild;
@@ -86,6 +84,6 @@ savePhone.addEventListener('click', () => {
         document.location.href =
           'https://risovach.ru/upload/2013/03/mem/toni-stark_13447470_big_.jpeg';
       }, 3000)
-    : phoneBlock.prepend(errorDiv),
-    (errorDiv.innerText = 'Невірний формат телефона');
+    : phoneBlock.prepend(errorDiv);
+  errorDiv.innerText = 'Невірний формат телефона';
 });
