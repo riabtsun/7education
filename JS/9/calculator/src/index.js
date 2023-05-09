@@ -9,67 +9,104 @@
 
 const [...blackButtons] = document.querySelectorAll('.black');
 const [...actions] = document.querySelectorAll('.pink');
-let display = document.querySelector('.display input');
+const digits = blackButtons
+  .map((el) => {
+    return +el.value;
+  })
+  .filter((el) => el >= 0);
+
+const actionsSings = actions.map((el) => {
+  return el.value;
+});
+const keys = document.querySelector('.keys');
+let display = document.querySelector('.display');
+let displayInput = document.querySelector('.display input');
 let equal = document.querySelector('#eq');
 
-let result = 0;
 let firstNum = '';
 let secondNum = '';
 let sign = '';
 let finish = false;
+let memory = null;
 
-const showDisplayInfo = (digits) => {
-  let acc = '';
-  digits.forEach((btn) => {
-    btn.addEventListener('click', (e) => {
-      if (e.target.value > 0 && e.target.value < 10) {
-        acc += e.target.value;
-        display.value = acc;
-      } else if (e.target.value === 'C') {
-        resetCalc();
-        display.value = '0';
-        acc = '';
-      }
-    });
-  });
-  return !firstNum ? (firstNum = acc) : (secondNum = acc);
-};
-showDisplayInfo(blackButtons);
-actions.forEach((btn) => {
-  if (firstNum) {
-    btn.addEventListener('click', (e) => {
-      sign = e.target.value;
-      calcAction(sign);
-    });
+keys.addEventListener('click', (e) => {
+  const key = e.target.value;
+  if (key === 'C') return resetCalc();
+
+  if (digits.includes(+key) || key === '.') {
+    equal.disabled = false;
+
+    if (secondNum === '' && sign === '') {
+      firstNum += key;
+      displayInput.value = firstNum;
+    } else if (firstNum !== '' && secondNum !== '' && finish) {
+      secondNum = key;
+      displayInput.value = secondNum;
+      equal.disabled = false;
+    } else {
+      secondNum += key;
+      displayInput.value = secondNum;
+    }
+    console.log(firstNum, sign, secondNum);
+    return;
+  }
+
+  if (actionsSings.includes(key)) {
+    sign = key;
+    return;
+  }
+  if (key === '=') {
+    calcAction(sign);
+    finish = false;
+    displayInput.value = firstNum;
+  }
+  if (key === 'm+') {
+    memory = displayInput.value;
+    let m = document.createElement('span');
+    m.innerText = `${key}`;
+    m.style.display = 'block';
+    m.style.marginTop = '-40px';
+    m.style.left = '5px';
+    m.style.zIndex = '2';
+    m.style.position = 'relative';
+    display.style.position = 'relative';
+    display.style.zIndex = '1';
+    display.appendChild(m);
+  }
+  if (key === 'mrc' && memory) {
+    displayInput.value = memory;
+  }
+  if (key === 'm-') {
+    memory = '';
+    let m = document.querySelector('.display span');
+    display.removeChild(m);
   }
 });
 
-equal.addEventListener('click', (e) => {
-  if (firstNum && secondNum) {
-    e.target.disabled = false;
-  }
-});
 const calcAction = (sign) => {
   switch (sign) {
     case '+':
-      result = firstNum + secondNum;
+      firstNum = +firstNum + +secondNum;
       break;
     case '-':
-      result = firstNum - secondNum;
+      firstNum = +firstNum - +secondNum;
       break;
     case '*':
-      result = firstNum * secondNum;
+      firstNum = +firstNum * +secondNum;
       break;
     case '/':
-      result = firstNum / secondNum;
+      firstNum = +firstNum / +secondNum;
       break;
   }
+  displayInput.value = firstNum;
+  secondNum = '';
+  finish = true;
 };
 const resetCalc = () => {
-  result = 0;
   firstNum = '';
   secondNum = '';
   sign = '';
+  displayInput.value = 0;
   finish = false;
-  display.value = 0;
+  equal.disabled = true;
 };
