@@ -4,9 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="117478c1-fc5e-4432-a9c3-f30e34bbaa69" name="Changes" comment="fixed task with Cars">
-      <change afterPath="$PROJECT_DIR$/JS/7/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/7/script.js" afterDir="false" />
+    <list default="true" id="117478c1-fc5e-4432-a9c3-f30e34bbaa69" name="Changes" comment="update calculator homework">
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/10-mini-shop/db.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/10-mini-shop/images/icons/ratingStar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/10-mini-shop/images/intro.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/10-mini-shop/images/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/10-mini-shop/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/10-mini-shop/pages/catalog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/10-mini-shop/pages/catalog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/10-mini-shop/sass/_vars.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/10-mini-shop/sass/catalog/_catalog.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/10-mini-shop/sass/homepage/_introSection.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/10-mini-shop/sass/homepage/_salesSection.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/10-mini-shop/sass/layout/_header.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/10-mini-shop/sass/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/10-mini-shop/sass/main.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/10-mini-shop/sass/main.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/10-mini-shop/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/7education.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/7education.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,34 +54,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Frontend/На изучение/7education/JS/3&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\dryabtsun\\AppData\\Roaming\\npm\\node_modules\\prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/dryabtsun/Documents/7education/JS/9",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\dryabtsun\\AppData\\Roaming\\npm\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "liveEdit",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dryabtsun\Documents\7education\JS\9" />
       <recent name="D:\Frontend\На изучение\7education\JS\3" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dryabtsun\Documents\7education\JS\10-mini-shop\sass\catalog" />
+      <recent name="C:\Users\dryabtsun\Documents\7education\JS\10-mini-shop\sass\layout" />
+      <recent name="C:\Users\dryabtsun\Documents\7education\JS\10-mini-shop\sass\homepage" />
       <recent name="D:\Frontend\На изучение\7education\2\2.1" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.scratch.js">
+  <component name="RunManager">
     <configuration name="scratch.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$APPLICATION_CONFIG_DIR$/scratches/scratch.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -106,7 +128,11 @@
       <workItem from="1681982928515" duration="3016000" />
       <workItem from="1682076202244" duration="2696000" />
       <workItem from="1682402947691" duration="601000" />
-      <workItem from="1682949691249" duration="2450000" />
+      <workItem from="1682949691249" duration="17917000" />
+      <workItem from="1683101261964" duration="2014000" />
+      <workItem from="1683184681761" duration="26691000" />
+      <workItem from="1683527807246" duration="13149000" />
+      <workItem from="1684130404443" duration="33648000" />
     </task>
     <task id="LOCAL-00001" summary="second homework">
       <created>1673890664371</created>
@@ -178,7 +204,49 @@
       <option name="project" value="LOCAL" />
       <updated>1682076990575</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="started 7th homework">
+      <created>1682952501102</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1682952501102</updated>
+    </task>
+    <task id="LOCAL-00012" summary="resolved 5 &amp; 4 tasks">
+      <created>1683010563091</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1683010563091</updated>
+    </task>
+    <task id="LOCAL-00013" summary="resolved sixth task">
+      <created>1683037894062</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1683037894062</updated>
+    </task>
+    <task id="LOCAL-00014" summary="resolved eighth homework">
+      <created>1683205610542</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1683205610542</updated>
+    </task>
+    <task id="LOCAL-00015" summary="started calculator homework">
+      <created>1683298554972</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1683298554972</updated>
+    </task>
+    <task id="LOCAL-00016" summary="update calculator homework">
+      <created>1683614317520</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1683614317520</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,6 +265,12 @@
     <MESSAGE value="createCards function fixes" />
     <MESSAGE value="createCards final fix" />
     <MESSAGE value="fixed task with Cars" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed task with Cars" />
+    <MESSAGE value="started 7th homework" />
+    <MESSAGE value="resolved 5 &amp; 4 tasks" />
+    <MESSAGE value="resolved sixth task" />
+    <MESSAGE value="resolved eighth homework" />
+    <MESSAGE value="started calculator homework" />
+    <MESSAGE value="update calculator homework" />
+    <option name="LAST_COMMIT_MESSAGE" value="update calculator homework" />
   </component>
 </project>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+    />
+    <link rel="stylesheet" href="sass/main.css" />
+    <title>Shop</title>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <nav class="navbar container">
+        <a href="./index.html" class="brand">
+          <img src="images/logo.svg" />
+        </a>
+        <div class="burger" id="burger">
+          <span class="burger-line"></span>
+          <span class="burger-line"></span>
+          <span class="burger-line"> </span>
+        </div>
+        <span class="overlay"></span>
+        <div class="menu" id="menu">
+          <ul class="menu-inner">
+            <li class="menu-item"><a class="menu-link" href="#">SHORTS</a></li>
+            <li class="menu-item"><a class="menu-link" href="#">PANTS</a></li>
+            <li class="menu-item"><a class="menu-link" href="#">SHIRTS</a></li>
+            <li class="menu-item">
+              <a class="menu-link" href="#">ACCESSORIES</a>
+            </li>
+            <li class="menu-item"><a class="menu-link" href="#">SALE</a></li>
+            <li class="menu-item">
+              <div class="search-block">
+                <form class="search-form">
+                  <span><i class="bx bx-search search-toggle"></i></span>
+
+                  <input
+                    type="search"
+                    name="search"
+                    class="search-input"
+                    placeholder="SEARCH ENTIRE STORE HERE"
+                    id="search"
+                  />
+                </form>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div class="container intro">
+          <div class="intro-text">
+            <h1 class="intro-title">BEST SELLING <br> STRETCH SHORTS</h1>
+            <p class="intro-subtitle">
+              Get the perfect fit with 6 different inseam lengths.
+            </p>
+            <a class="intro-link">SHOP ALL SHORTS</a>
+          </div>
+          <div class="intro-media">
+            <img
+              class="intro-media__image"
+              src="images/intro.jpg"
+              alt="clothes"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="sales-section">
+        <div class="container sales">
+          <p class="sales-supTitle">TGIF, INLET, AND MARCHAL'S COLLECTIONS</p>
+          <h2 class="sales-title">NOW 40% OFF!</h2>
+          <div class="sales-cards">
+
+          </div>
+        </div>
+        <a href="pages/catalog.html">Catalog</a>
+      </section>
+    </main>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
