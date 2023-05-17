@@ -2,22 +2,12 @@ import {
   navbarMenu,
   burgerMenu,
   bgOverlay,
-  showRandomCards,
   url,
+  allProducts,
 } from '../script.js';
 
 const catalog = document.querySelector('.catalog');
 
-function getProducts(link) {
-  fetch(link)
-    .then((res) => res.json())
-    .then((data) => {
-      if (data) {
-        showAllProducts(data.products);
-      }
-    });
-}
-getProducts(url);
 const showAllProducts = (data) => {
   data.forEach((item, idx) => {
     const { brand, description, id, images, price, rating, title, thumbnail } =
@@ -34,3 +24,4 @@ const showAllProducts = (data) => {
     catalog.appendChild(productCard);
   });
 };
+showAllProducts(allProducts);

@@ -1,5 +1,4 @@
 const url = 'https://fakestoreapi.com/products';
-
 class Card {
   constructor(name, img, price, description) {
     this.name = name;

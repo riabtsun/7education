@@ -1,0 +1,25 @@
+.bestselling
+  display: flex
+  flex-direction: column
+  @media (width >= 768px)
+    flex-direction: row
+    flex-wrap: nowrap
+    justify-content: space-between
+    align-items: center
+    column-gap: 60px
+  &-info
+    max-width: 550px
+  &-img
+    max-width: 660px
+  &-title
+    font-weight: 700
+    font-size: 65px
+    line-height: 96px
+    color: #001f3d
+    margin-bottom: 10px
+  &-text
+    font-weight: 300
+    font-size: 24px
+    line-height: 33px
+    color: #000
+    margin-bottom: 30px

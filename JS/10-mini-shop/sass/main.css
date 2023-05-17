@@ -258,25 +258,13 @@
   color: #000;
   margin-bottom: 30px;
 }
-.intro-link {
-  font-weight: 300;
-  font-size: 24px;
-  line-height: 33px;
-  text-align: center;
-  color: #000;
-  border: 1px solid #000;
-  padding: 9px 12px;
-  transition: 0.3s ease-in-out;
-}
-.intro-link:hover {
+.intro-subtitle:hover {
   background-color: #a04955;
   color: #fff;
 }
 
 .sales-section {
   background: #f1f1f1;
-  padding-top: 80px;
-  padding-bottom: 80px;
 }
 
 .sales-supTitle {
@@ -332,6 +320,99 @@
   padding: 4px 8px;
   width: fit-content;
   margin: 0 auto;
+}
+
+.bestselling {
+  display: flex;
+  flex-direction: column;
+}
+@media (width >= 768px) {
+  .bestselling {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 60px;
+  }
+}
+.bestselling-info {
+  max-width: 550px;
+}
+.bestselling-img {
+  max-width: 660px;
+}
+.bestselling-title {
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 96px;
+  color: #001f3d;
+  margin-bottom: 10px;
+}
+.bestselling-text {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 33px;
+  color: #000;
+  margin-bottom: 30px;
+}
+
+.bestProducts-section {
+  background-color: #e5e5e5;
+}
+
+.bestProducts {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+@media (width >= 768px) {
+  .bestProducts {
+    flex-direction: row;
+    justify-content: center;
+    row-gap: 0;
+    column-gap: 36px;
+  }
+}
+.bestProducts-imageWrapper {
+  position: relative;
+}
+.bestProducts-item {
+  text-align: center;
+  max-width: 550px;
+}
+.bestProducts-item .bestProducts-imageWrapper:after {
+  content: "ECOTHS: NOW 30% OFF!";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #a04955;
+  opacity: 0.8;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+  color: #fff;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 53px;
+}
+@media (width >= 768px) {
+  .bestProducts-item .bestProducts-imageWrapper:after {
+    font-size: 36px;
+    padding: 17px 0;
+  }
+}
+.bestProducts-item:last-child .bestProducts-imageWrapper:after {
+  content: "NEW POWELL PRINT SHIRT";
+}
+.bestProducts-image {
+  margin-bottom: 35px;
+}
+.bestProducts-text {
+  margin-bottom: 25px;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+  color: #000;
 }
 
 .catalog {
@@ -422,9 +503,10 @@ img {
   image-rendering: crisp-edges;
 }
 
-.section {
+section {
   margin: 0 auto;
-  padding: 5rem 0 2rem;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .container {
@@ -432,6 +514,17 @@ img {
   height: auto;
   margin: 0 auto;
   padding: 0 1.25rem;
+}
+
+.catalog-link {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+  color: #000;
+  border: 1px solid #000;
+  padding: 9px 12px;
+  transition: 0.3s ease-in-out;
 }
 
 /*# sourceMappingURL=main.css.map */

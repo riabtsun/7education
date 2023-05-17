@@ -4,27 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="117478c1-fc5e-4432-a9c3-f30e34bbaa69" name="Changes" comment="update calculator homework">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/10-mini-shop/db.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/10-mini-shop/images/icons/ratingStar.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/10-mini-shop/images/intro.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/10-mini-shop/images/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/10-mini-shop/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/10-mini-shop/pages/catalog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/10-mini-shop/pages/catalog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/10-mini-shop/sass/_vars.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/10-mini-shop/sass/catalog/_catalog.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/10-mini-shop/sass/homepage/_introSection.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/10-mini-shop/sass/homepage/_salesSection.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/10-mini-shop/sass/layout/_header.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/10-mini-shop/sass/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/10-mini-shop/sass/main.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/10-mini-shop/sass/main.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/10-mini-shop/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/7education.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/7education.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
+    <list default="true" id="117478c1-fc5e-4432-a9c3-f30e34bbaa69" name="Changes" comment="added code for mini shop">
+      <change afterPath="$PROJECT_DIR$/JS/10-mini-shop/images/bestseller.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/10-mini-shop/sass/homepage/_bestProducts.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/10-mini-shop/sass/homepage/_bestsellerSection.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/10-mini-shop/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/JS/10-mini-shop/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/10-mini-shop/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/10-mini-shop/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/10-mini-shop/pages/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/10-mini-shop/pages/catalog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/10-mini-shop/pages/catalog.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/10-mini-shop/pages/catalog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/10-mini-shop/sass/homepage/_introSection.sass" beforeDir="false" afterPath="$PROJECT_DIR$/JS/10-mini-shop/sass/homepage/_introSection.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/10-mini-shop/sass/homepage/_salesSection.sass" beforeDir="false" afterPath="$PROJECT_DIR$/JS/10-mini-shop/sass/homepage/_salesSection.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/10-mini-shop/sass/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/JS/10-mini-shop/sass/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/10-mini-shop/sass/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/JS/10-mini-shop/sass/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/10-mini-shop/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/JS/10-mini-shop/sass/main.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/10-mini-shop/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/10-mini-shop/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/6/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/6/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +81,7 @@
       <recent name="D:\Frontend\На изучение\7education\2\2.1" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.scratch.js">
     <configuration name="scratch.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$APPLICATION_CONFIG_DIR$/scratches/scratch.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -105,6 +100,9 @@
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="117478c1-fc5e-4432-a9c3-f30e34bbaa69" name="Changes" comment="" />
@@ -132,7 +130,8 @@
       <workItem from="1683101261964" duration="2014000" />
       <workItem from="1683184681761" duration="26691000" />
       <workItem from="1683527807246" duration="13149000" />
-      <workItem from="1684130404443" duration="33648000" />
+      <workItem from="1684130404443" duration="34588000" />
+      <workItem from="1684304968536" duration="11427000" />
     </task>
     <task id="LOCAL-00001" summary="second homework">
       <created>1673890664371</created>
@@ -246,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683614317520</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="added code for mini shop">
+      <created>1684248794122</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1684248794122</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,6 +277,7 @@
     <MESSAGE value="resolved eighth homework" />
     <MESSAGE value="started calculator homework" />
     <MESSAGE value="update calculator homework" />
-    <option name="LAST_COMMIT_MESSAGE" value="update calculator homework" />
+    <MESSAGE value="added code for mini shop" />
+    <option name="LAST_COMMIT_MESSAGE" value="added code for mini shop" />
   </component>
 </project>
