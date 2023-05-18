@@ -362,8 +362,9 @@ section {
 .searchList {
   background-color: #fff;
   position: absolute;
-  bottom: -120px;
-  overflow: scroll;
+  top: 67px;
+  width: 300px;
+  overflow-y: scroll;
 }
 
 .intro {

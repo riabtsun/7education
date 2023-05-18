@@ -32,20 +32,21 @@ const searchInput = document.querySelector('#search');
 const headerSearchList = document.createElement('ul');
 headerSearchList.classList.add('searchList');
 searchBlock.append(headerSearchList);
+
 function renderList(event) {
-  let newList;
+  headerSearchList.innerHTML = '';
+
   if (event === '' || event === null) {
     headerSearchList.innerHTML = '';
   } else {
-    newList = allProducts.filter((product) => {
-      return product.title.toUpperCase().includes(event.toUpperCase());
+    allProducts.filter((product) => {
+      const listItem = document.createElement('li');
+      listItem.innerText = `${product.title}`;
+      if (product.title.toUpperCase().includes(event.toUpperCase())) {
+        headerSearchList.append(listItem);
+      }
     });
   }
-  newList.forEach((product) => {
-    const listItem = document.createElement('li');
-    listItem.innerText = `${product.title}`;
-    headerSearchList.append(listItem);
-  });
 }
 searchInput.addEventListener('keyup', (e) => {
   renderList(e.target.value);

@@ -7,22 +7,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="117478c1-fc5e-4432-a9c3-f30e34bbaa69" name="Changes" comment="started create input filter">
-      <change afterPath="$PROJECT_DIR$/JS/10-mini-shop/js/header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/10-mini-shop/sass/_reset.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/10-mini-shop/sass/_ui.sass" afterDir="false" />
+    <list default="true" id="117478c1-fc5e-4432-a9c3-f30e34bbaa69" name="Changes" comment="finished input filter">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/10-mini-shop/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/10-mini-shop/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/10-mini-shop/pages/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/10-mini-shop/pages/catalog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/10-mini-shop/pages/catalog.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/10-mini-shop/pages/catalog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/10-mini-shop/sass/catalog/_catalog.sass" beforeDir="false" afterPath="$PROJECT_DIR$/JS/10-mini-shop/sass/catalog/_catalog.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/10-mini-shop/sass/homepage/_introSection.sass" beforeDir="false" afterPath="$PROJECT_DIR$/JS/10-mini-shop/sass/homepage/_introSection.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/10-mini-shop/sass/homepage/_salesSection.sass" beforeDir="false" afterPath="$PROJECT_DIR$/JS/10-mini-shop/sass/homepage/_salesSection.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/10-mini-shop/js/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/10-mini-shop/js/header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JS/10-mini-shop/sass/layout/_header.sass" beforeDir="false" afterPath="$PROJECT_DIR$/JS/10-mini-shop/sass/layout/_header.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JS/10-mini-shop/sass/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/JS/10-mini-shop/sass/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JS/10-mini-shop/sass/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/JS/10-mini-shop/sass/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/10-mini-shop/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/JS/10-mini-shop/sass/main.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/10-mini-shop/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/10-mini-shop/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,26 +42,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/dryabtsun/Documents/7education/JS/9",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\dryabtsun\\AppData\\Roaming\\npm\\node_modules\\prettier",
-    "settings.editor.selected.configurable": "liveEdit",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/dryabtsun/Documents/7education/JS/9&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\dryabtsun\\AppData\\Roaming\\npm\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;liveEdit&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\dryabtsun\Documents\7education\JS\9" />
@@ -135,6 +125,7 @@
       <workItem from="1683527807246" duration="13149000" />
       <workItem from="1684130404443" duration="34588000" />
       <workItem from="1684304968536" duration="30138000" />
+      <workItem from="1684415637771" duration="2977000" />
     </task>
     <task id="LOCAL-00001" summary="second homework">
       <created>1673890664371</created>
@@ -276,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684329518360</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="started create input filter">
+      <created>1684415651749</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1684415651749</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,6 +304,7 @@
     <MESSAGE value="added new images" />
     <MESSAGE value="added new section" />
     <MESSAGE value="started create input filter" />
-    <option name="LAST_COMMIT_MESSAGE" value="started create input filter" />
+    <MESSAGE value="finished input filter" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished input filter" />
   </component>
 </project>
