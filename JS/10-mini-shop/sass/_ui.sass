@@ -1,0 +1,74 @@
+// Elements
+section
+  margin: 0 auto
+  padding-top: 80px
+  padding-bottom: 80px
+
+.container
+  max-width: 1440px
+  height: auto
+  margin: 0 auto
+  padding: 0 1.25rem
+
+.catalog-link
+  font-weight: 300
+  font-size: 24px
+  line-height: 33px
+  text-align: center
+  color: #000
+  border: 1px solid #000
+  padding: 9px 12px
+  transition: .3s ease-in-out
+  @media (width >= 768px)
+    font-size: 24px
+    line-height: 33px
+  &:hover
+    background-color: $mainPurple
+    color: #fff
+
+.catalog-link--purple
+  color: #fff
+  background: #a04955
+  &:hover
+    color: #a04955
+    background-color: #fff
+
+.product-card
+  padding: 16px 25px
+  display: flex
+  flex-direction: column
+  justify-content: center
+  background: #fff
+  max-width: 48%
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25)
+  @media (width >= 768px)
+    padding: 32px 50px
+  &__thumbnail
+    margin: 0 auto 5px
+    @media (width >= 768px)
+      max-width: 165px
+      max-height: 165px
+  &__title
+    font-weight: 500
+    font-size: 12px
+    line-height: 18px
+    text-align: center
+    color: #333
+    @media (width >= 768px)
+      font-size: 24px
+      line-height: 36px
+  &__add
+    font-weight: 400
+    font-size: 14px
+    line-height: 16px
+    text-align: center
+    text-transform: uppercase
+    color: #fff
+    background: #a04955
+    padding: 4px 8px
+    width: fit-content
+    margin: 15px auto 0
+    @media (width >= 768px)
+      font-size: 18px
+      line-height: 27px
+

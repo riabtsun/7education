@@ -18,38 +18,16 @@
     width: fit-content
   &-cards
     display: flex
-    flex-wrap: nowrap
-    column-gap: 55px
+    flex-wrap: wrap
     justify-content: space-between
+    gap: 20px 10px
+    @media (width >= 768px)
+      column-gap: 55px
 
 
-.product-card
-  padding: 32px 50px
-  display: flex
-  flex-direction: column
-  justify-content: center
-  background: #fff
-  &__thumbnail
-    max-width: 165px
-    max-height: 165px
-    margin: 0 auto 5px
-  &__title
-    font-weight: 500
-    font-size: 24px
-    line-height: 36px
-    text-align: center
-    color: #333
-  &__add
-    font-weight: 400
-    font-size: 18px
-    line-height: 27px
-    text-align: center
-    text-transform: uppercase
-    color: #fff
-    background: #a04955
-    padding: 4px 8px
-    width: fit-content
-    margin: 0 auto
+
+
+
 
 
 

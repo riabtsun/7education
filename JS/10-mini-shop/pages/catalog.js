@@ -1,12 +1,6 @@
-import {
-  navbarMenu,
-  burgerMenu,
-  bgOverlay,
-  url,
-  allProducts,
-} from '../script.js';
-
+import dataBase from '../db.json' assert { type: 'json' };
 const catalog = document.querySelector('.catalog');
+let [...allProducts] = dataBase.products;
 
 const showAllProducts = (data) => {
   data.forEach((item, idx) => {

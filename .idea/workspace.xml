@@ -1,17 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="117478c1-fc5e-4432-a9c3-f30e34bbaa69" name="Changes" comment="added new images">
-      <change afterPath="$PROJECT_DIR$/JS/10-mini-shop/sass/homepage/_bannerSection.sass" afterDir="false" />
+    <list default="true" id="117478c1-fc5e-4432-a9c3-f30e34bbaa69" name="Changes" comment="started create input filter">
+      <change afterPath="$PROJECT_DIR$/JS/10-mini-shop/js/header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/10-mini-shop/sass/_reset.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/10-mini-shop/sass/_ui.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JS/10-mini-shop/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/10-mini-shop/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JS/10-mini-shop/pages/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/10-mini-shop/pages/catalog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/10-mini-shop/pages/catalog.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/10-mini-shop/pages/catalog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/10-mini-shop/sass/catalog/_catalog.sass" beforeDir="false" afterPath="$PROJECT_DIR$/JS/10-mini-shop/sass/catalog/_catalog.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/10-mini-shop/sass/homepage/_introSection.sass" beforeDir="false" afterPath="$PROJECT_DIR$/JS/10-mini-shop/sass/homepage/_introSection.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/10-mini-shop/sass/homepage/_salesSection.sass" beforeDir="false" afterPath="$PROJECT_DIR$/JS/10-mini-shop/sass/homepage/_salesSection.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/10-mini-shop/sass/layout/_header.sass" beforeDir="false" afterPath="$PROJECT_DIR$/JS/10-mini-shop/sass/layout/_header.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JS/10-mini-shop/sass/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/JS/10-mini-shop/sass/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JS/10-mini-shop/sass/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/JS/10-mini-shop/sass/main.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JS/10-mini-shop/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/JS/10-mini-shop/sass/main.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/10-mini-shop/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/10-mini-shop/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +134,7 @@
       <workItem from="1683184681761" duration="26691000" />
       <workItem from="1683527807246" duration="13149000" />
       <workItem from="1684130404443" duration="34588000" />
-      <workItem from="1684304968536" duration="13091000" />
+      <workItem from="1684304968536" duration="30138000" />
     </task>
     <task id="LOCAL-00001" summary="second homework">
       <created>1673890664371</created>
@@ -258,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684326224778</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="added new section">
+      <created>1684329518360</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1684329518360</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,6 +304,8 @@
     <MESSAGE value="added code for mini shop" />
     <MESSAGE value="added new sections" />
     <MESSAGE value="added new images" />
-    <option name="LAST_COMMIT_MESSAGE" value="added new images" />
+    <MESSAGE value="added new section" />
+    <MESSAGE value="started create input filter" />
+    <option name="LAST_COMMIT_MESSAGE" value="started create input filter" />
   </component>
 </project>

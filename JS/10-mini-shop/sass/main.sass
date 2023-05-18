@@ -1,4 +1,6 @@
 @import "vars"
+@import "reset"
+@import "ui"
 @import "layout/header"
 @import "homepage/introSection"
 @import "homepage/salesSection"
@@ -7,96 +9,3 @@
 @import "homepage/bannerSection"
 @import "catalog/catalog"
 
-*, *:before,
-*:after
-  box-sizing: border-box
-
-html, body, div, span, object, iframe, figure,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre, a,
-code, em, img, small, strike, strong, sub, sup,
-tt, b, u, i, ol, ul, li, fieldset, form, label,
-table, caption, tbody, tfoot, thead, tr, th, td,
-main, canvas, embed, footer, header, nav, section, video
-  margin: 0
-  padding: 0
-  border: 0
-  font-size: 100%
-  font: inherit
-  vertical-align: baseline
-  text-rendering: optimizeLegibility
-  -webkit-font-smoothing: antialiased
-  text-size-adjust: none
-  text-decoration: none
-
-footer, header, nav, section, main
-  display: block
-
-body
-  line-height: 1
-  font-family: 'Oswald', sans-serif
-
-ol, ul
-  list-style: none
-
-blockquote, q
-  quotes: none
-
-blockquote:before, blockquote:after, q:before, q:after
-  content: ''
-  content: none
-
-table
-  border-collapse: collapse
-  border-spacing: 0
-
-input
-  -webkit-appearance: none
-  border-radius: 0
-
-main
-  overflow: hidden
-  padding-top: 170px
-a,
-button
-  cursor: pointer
-  border: none
-  outline: none
-  background: none
-  text-transform: unset
-img,
-video
-  display: block
-  max-width: 100%
-  height: auto
-  object-fit: cover
-img
-  image-rendering: -webkit-optimize-contrast
-  image-rendering: -moz-crisp-edges
-  image-rendering: crisp-edges
-
-
-// Elements
-section
-  margin: 0 auto
-  padding-top: 80px
-  padding-bottom: 80px
-
-.container
-  max-width: 1440px
-  height: auto
-  margin: 0 auto
-  padding: 0 1.25rem
-
-.catalog-link
-  font-weight: 300
-  font-size: 24px
-  line-height: 33px
-  text-align: center
-  color: #000
-  border: 1px solid #000
-  padding: 9px 12px
-  transition: .3s ease-in-out
-
-.catalog-link--purple
-  color: #fff
-  background: #a04955

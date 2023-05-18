@@ -41,7 +41,7 @@
   width: 80%
   height: 100%
   z-index: 10
-  overflow-y: auto
+  //overflow-y: auto
   background-color: lightblue
   box-shadow: #000
   transition: all 0.5s ease-in-out
@@ -138,13 +138,12 @@
     color: #000
   &-block
     z-index: 10
-    overflow: hidden
+    //overflow: hidden
     transition: all 0.35s ease-in-out
+    position: relative
     &.is-active
       top: 0
       right: 0
-
-  // @media only screen and (min-width:
   &-form
     display: flex
     align-items: center
@@ -167,6 +166,11 @@
     &::-webkit-search-cancel-button
       display: none
       visibility: hidden
-  
+
+.searchList
+  background-color: #fff
+  position: absolute
+  bottom: -120px
+  overflow: scroll
 
 
