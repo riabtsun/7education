@@ -10,6 +10,9 @@
       "stock": 94,
       "brand": "Apple",
       "category": "smartphones",
+      "colors": [
+        "#00FF00"
+      ],
       "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
       "images": [
         "https://i.dummyjson.com/data/products/1/1.jpg",
@@ -29,6 +32,12 @@
       "stock": 34,
       "brand": "Apple",
       "category": "smartphones",
+      "colors": [
+        "#0000FF",
+        "#FF0000",
+        "#00FF00",
+        "#FF00FF"
+      ],
       "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
       "images": [
         "https://i.dummyjson.com/data/products/2/1.jpg",
@@ -47,6 +56,11 @@
       "stock": 36,
       "brand": "Samsung",
       "category": "smartphones",
+      "colors": [
+        "#FF00FF",
+        "#00FFFF",
+        "#FF00FF"
+      ],
       "thumbnail": "https://i.dummyjson.com/data/products/3/thumbnail.jpg",
       "images": [
         "https://i.dummyjson.com/data/products/3/1.jpg"
@@ -62,6 +76,12 @@
       "stock": 123,
       "brand": "OPPO",
       "category": "smartphones",
+      "colors": [
+        "#FFFF00",
+        "#FF00FF",
+        "#FFFF00",
+        "#00FF00"
+      ],
       "thumbnail": "https://i.dummyjson.com/data/products/4/thumbnail.jpg",
       "images": [
         "https://i.dummyjson.com/data/products/4/1.jpg",
@@ -81,6 +101,10 @@
       "stock": 32,
       "brand": "Huawei",
       "category": "smartphones",
+      "colors": [
+        "#FF00FF",
+        "#FFFF00"
+      ],
       "thumbnail": "https://i.dummyjson.com/data/products/5/thumbnail.jpg",
       "images": [
         "https://i.dummyjson.com/data/products/5/1.jpg",
@@ -98,6 +122,11 @@
       "stock": 83,
       "brand": "Apple",
       "category": "laptops",
+      "colors": [
+        "#FFFF00",
+        "#FF0000",
+        "#FFFF00"
+      ],
       "thumbnail": "https://i.dummyjson.com/data/products/6/thumbnail.png",
       "images": [
         "https://i.dummyjson.com/data/products/6/1.png",
@@ -116,6 +145,10 @@
       "stock": 50,
       "brand": "Samsung",
       "category": "laptops",
+      "colors": [
+        "#0000FF",
+        "#FF00FF"
+      ],
       "thumbnail": "https://i.dummyjson.com/data/products/7/thumbnail.jpg",
       "images": [
         "https://i.dummyjson.com/data/products/7/1.jpg",
@@ -134,6 +167,11 @@
       "stock": 68,
       "brand": "Microsoft Surface",
       "category": "laptops",
+      "colors": [
+        "#FF00FF",
+        "#FFFF00",
+        "#00FF00"
+      ],
       "thumbnail": "https://i.dummyjson.com/data/products/8/thumbnail.jpg",
       "images": [
         "https://i.dummyjson.com/data/products/8/1.jpg",
@@ -153,6 +191,10 @@
       "stock": 96,
       "brand": "Infinix",
       "category": "laptops",
+      "colors": [
+        "#0000FF",
+        "#00FF00"
+      ],
       "thumbnail": "https://i.dummyjson.com/data/products/9/thumbnail.jpg",
       "images": [
         "https://i.dummyjson.com/data/products/9/1.jpg",
@@ -172,6 +214,11 @@
       "stock": 89,
       "brand": "HP Pavilion",
       "category": "laptops",
+      "colors": [
+        "#00FF00",
+        "#FF00FF",
+        "#0000FF"
+      ],
       "thumbnail": "https://i.dummyjson.com/data/products/10/thumbnail.jpeg",
       "images": [
         "https://i.dummyjson.com/data/products/10/1.jpg",
@@ -190,6 +237,9 @@
       "stock": 65,
       "brand": "Impression of Acqua Di Gio",
       "category": "fragrances",
+      "colors": [
+        "#FFFF00"
+      ],
       "thumbnail": "https://i.dummyjson.com/data/products/11/thumbnail.jpg",
       "images": [
         "https://i.dummyjson.com/data/products/11/1.jpg",
@@ -208,6 +258,12 @@
       "stock": 52,
       "brand": "Royal_Mirage",
       "category": "fragrances",
+      "colors": [
+        "#FF00FF",
+        "#FF0000",
+        "#00FFFF",
+        "#0000FF"
+      ],
       "thumbnail": "https://i.dummyjson.com/data/products/12/thumbnail.jpg",
       "images": [
         "https://i.dummyjson.com/data/products/12/1.jpg",
@@ -227,6 +283,11 @@
       "stock": 61,
       "brand": "Fog Scent Xpressio",
       "category": "fragrances",
+      "colors": [
+        "#0000FF",
+        "#FF0000",
+        "#FF00FF"
+      ],
       "thumbnail": "https://i.dummyjson.com/data/products/13/thumbnail.webp",
       "images": [
         "https://i.dummyjson.com/data/products/13/1.jpg",
@@ -246,6 +307,11 @@
       "stock": 114,
       "brand": "Al Munakh",
       "category": "fragrances",
+      "colors": [
+        "#00FFFF",
+        "#FF00FF",
+        "#FF00FF"
+      ],
       "thumbnail": "https://i.dummyjson.com/data/products/14/thumbnail.jpg",
       "images": [
         "https://i.dummyjson.com/data/products/14/1.jpg",
@@ -264,6 +330,10 @@
       "stock": 105,
       "brand": "Lord - Al-Rehab",
       "category": "fragrances",
+      "colors": [
+        "#FF0000",
+        "#FF00FF"
+      ],
       "thumbnail": "https://i.dummyjson.com/data/products/15/thumbnail.jpg",
       "images": [
         "https://i.dummyjson.com/data/products/15/1.jpg",
@@ -283,6 +353,11 @@
       "stock": 110,
       "brand": "L'Oreal Paris",
       "category": "skincare",
+      "colors": [
+        "#00FFFF",
+        "#FFFF00",
+        "#0000FF"
+      ],
       "thumbnail": "https://i.dummyjson.com/data/products/16/thumbnail.jpg",
       "images": [
         "https://i.dummyjson.com/data/products/16/1.png",
@@ -302,6 +377,10 @@
       "stock": 78,
       "brand": "Hemani Tea",
       "category": "skincare",
+      "colors": [
+        "#FF00FF",
+        "#00FFFF"
+      ],
       "thumbnail": "https://i.dummyjson.com/data/products/17/thumbnail.jpg",
       "images": [
         "https://i.dummyjson.com/data/products/17/1.jpg",
@@ -320,6 +399,11 @@
       "stock": 88,
       "brand": "Dermive",
       "category": "skincare",
+      "colors": [
+        "#FFFF00",
+        "#FF00FF",
+        "#00FFFF"
+      ],
       "thumbnail": "https://i.dummyjson.com/data/products/18/thumbnail.jpg",
       "images": [
         "https://i.dummyjson.com/data/products/18/1.jpg",
@@ -339,6 +423,7 @@
       "stock": 54,
       "brand": "ROREC White Rice",
       "category": "skincare",
+      "colors": ["#FFFF00", "#FF0000", "#FF00FF", "#FFFF00", "#0000FF"],
       "thumbnail": "https://i.dummyjson.com/data/products/19/thumbnail.jpg",
       "images": [
         "https://i.dummyjson.com/data/products/19/1.jpg",
@@ -357,6 +442,7 @@
       "stock": 140,
       "brand": "Fair & Clear",
       "category": "skincare",
+      "colors": ["#00FF00"],
       "thumbnail": "https://i.dummyjson.com/data/products/20/thumbnail.jpg",
       "images": [
         "https://i.dummyjson.com/data/products/20/1.jpg",
@@ -376,6 +462,7 @@
       "stock": 133,
       "brand": "Saaf & Khaas",
       "category": "groceries",
+      "colors": ["#FFFF00"],
       "thumbnail": "https://i.dummyjson.com/data/products/21/thumbnail.png",
       "images": [
         "https://i.dummyjson.com/data/products/21/1.png",
@@ -393,6 +480,7 @@
       "stock": 146,
       "brand": "Bake Parlor Big",
       "category": "groceries",
+      "colors": ["#FFFF00", "#FF00FF", "#FF0000", "#FFFF00", "#FF00FF"],
       "thumbnail": "https://i.dummyjson.com/data/products/22/thumbnail.jpg",
       "images": [
         "https://i.dummyjson.com/data/products/22/1.jpg",
@@ -410,6 +498,7 @@
       "stock": 26,
       "brand": "Baking Food Items",
       "category": "groceries",
+      "colors": ["#FF00FF"],
       "thumbnail": "https://i.dummyjson.com/data/products/23/thumbnail.jpg",
       "images": [
         "https://i.dummyjson.com/data/products/23/1.jpg",
@@ -429,6 +518,7 @@
       "stock": 113,
       "brand": "fauji",
       "category": "groceries",
+      "colors": ["#FF00FF", "#0000FF", "#FFFF00"],
       "thumbnail": "https://i.dummyjson.com/data/products/24/thumbnail.jpg",
       "images": [
         "https://i.dummyjson.com/data/products/24/1.jpg",
@@ -448,6 +538,7 @@
       "stock": 47,
       "brand": "Dry Rose",
       "category": "groceries",
+      "colors": ["#FF00FF", "#00FF00", "#FF0000", "#FF00FF"],
       "thumbnail": "https://i.dummyjson.com/data/products/25/thumbnail.jpg",
       "images": [
         "https://i.dummyjson.com/data/products/25/1.png",
@@ -467,6 +558,7 @@
       "stock": 131,
       "brand": "Boho Decor",
       "category": "home-decoration",
+      "colors": ["#FF0000"],
       "thumbnail": "https://i.dummyjson.com/data/products/26/thumbnail.jpg",
       "images": [
         "https://i.dummyjson.com/data/products/26/1.jpg",
@@ -487,6 +579,7 @@
       "stock": 17,
       "brand": "Flying Wooden",
       "category": "home-decoration",
+      "colors": ["#FF00FF", "#0000FF"],
       "thumbnail": "https://i.dummyjson.com/data/products/27/thumbnail.webp",
       "images": [
         "https://i.dummyjson.com/data/products/27/1.jpg",
@@ -506,6 +599,7 @@
       "stock": 54,
       "brand": "LED Lights",
       "category": "home-decoration",
+      "colors": ["#FF00FF"],
       "thumbnail": "https://i.dummyjson.com/data/products/28/thumbnail.jpg",
       "images": [
         "https://i.dummyjson.com/data/products/28/1.jpg",
@@ -525,6 +619,7 @@
       "stock": 7,
       "brand": "luxury palace",
       "category": "home-decoration",
+      "colors": ["#FF00FF", "#0000FF"],
       "thumbnail": "https://i.dummyjson.com/data/products/29/thumbnail.webp",
       "images": [
         "https://i.dummyjson.com/data/products/29/1.jpg",
@@ -544,6 +639,7 @@
       "stock": 54,
       "brand": "Golden",
       "category": "home-decoration",
+      "colors": ["#FFFF00", "#FF00FF", "#0000FF"],
       "thumbnail": "https://i.dummyjson.com/data/products/30/thumbnail.jpg",
       "images": [
         "https://i.dummyjson.com/data/products/30/1.jpg",
@@ -562,6 +658,7 @@
       "stock": 140,
       "brand": "Furniture Bed Set",
       "category": "furniture",
+      "colors": ["#FFFF00", "#FF00FF", "#FF00FF", "#FF0000", "#00FF00"],
       "thumbnail": "https://i.dummyjson.com/data/products/31/thumbnail.jpg",
       "images": [
         "https://i.dummyjson.com/data/products/31/1.jpg",
@@ -581,6 +678,7 @@
       "stock": 30,
       "brand": "Ratttan Outdoor",
       "category": "furniture",
+      "colors": ["#FFFF00", "#FF00FF"],
       "thumbnail": "https://i.dummyjson.com/data/products/32/thumbnail.jpg",
       "images": [
         "https://i.dummyjson.com/data/products/32/1.jpg",
@@ -599,6 +697,7 @@
       "stock": 106,
       "brand": "Kitchen Shelf",
       "category": "furniture",
+      "colors": ["#00FF00", "#FFFF00"],
       "thumbnail": "https://i.dummyjson.com/data/products/33/thumbnail.jpg",
       "images": [
         "https://i.dummyjson.com/data/products/33/1.jpg",
@@ -618,6 +717,7 @@
       "stock": 136,
       "brand": "Multi Purpose",
       "category": "furniture",
+      "colors": ["#FF00FF", "#FF0000", "#00FFFF", "#0000FF"],
       "thumbnail": "https://i.dummyjson.com/data/products/34/thumbnail.jpg",
       "images": [
         "https://i.dummyjson.com/data/products/34/1.jpg",
@@ -637,6 +737,7 @@
       "stock": 68,
       "brand": "AmnaMart",
       "category": "furniture",
+      "colors": ["#FFFF00", "#FF00FF", "#FFFF00", "#FF00FF"],
       "thumbnail": "https://i.dummyjson.com/data/products/35/thumbnail.jpg",
       "images": [
         "https://i.dummyjson.com/data/products/35/1.jpg",
@@ -656,6 +757,7 @@
       "stock": 39,
       "brand": "Professional Wear",
       "category": "tops",
+      "colors": ["#FF00FF", "#FFFF00", "#00FFFF"],
       "thumbnail": "https://i.dummyjson.com/data/products/36/thumbnail.jpg",
       "images": [
         "https://i.dummyjson.com/data/products/36/1.jpg",
@@ -675,6 +777,7 @@
       "stock": 107,
       "brand": "Soft Cotton",
       "category": "tops",
+      "colors": ["#FF00FF", "#FF0000", "#0000FF"],
       "thumbnail": "https://i.dummyjson.com/data/products/37/thumbnail.jpg",
       "images": [
         "https://i.dummyjson.com/data/products/37/1.jpg",
@@ -694,6 +797,7 @@
       "stock": 20,
       "brand": "Soft Cotton",
       "category": "tops",
+      "colors": ["#FF0000"],
       "thumbnail": "https://i.dummyjson.com/data/products/38/thumbnail.jpg",
       "images": [
         "https://i.dummyjson.com/data/products/38/1.png",
@@ -712,6 +816,7 @@
       "stock": 55,
       "brand": "Top Sweater",
       "category": "tops",
+      "colors": ["#FFFF00", "#FF00FF", "#FFFF00"],
       "thumbnail": "https://i.dummyjson.com/data/products/39/thumbnail.jpg",
       "images": [
         "https://i.dummyjson.com/data/products/39/1.jpg",
@@ -731,6 +836,7 @@
       "stock": 84,
       "brand": "Top Sweater",
       "category": "tops",
+      "colors": ["#FFFF00", "#00FF00"],
       "thumbnail": "https://i.dummyjson.com/data/products/40/thumbnail.jpg",
       "images": [
         "https://i.dummyjson.com/data/products/40/1.jpg",
@@ -747,6 +853,7 @@
       "stock": 21,
       "brand": "RED MICKY MOUSE..",
       "category": "womens-dresses",
+      "colors": ["#FF00FF", "#FFFF00", "#FFFF00", "#0000FF"],
       "thumbnail": "https://i.dummyjson.com/data/products/41/thumbnail.webp",
       "images": [
         "https://i.dummyjson.com/data/products/41/1.jpg",
@@ -766,6 +873,7 @@
       "stock": 148,
       "brand": "Digital Printed",
       "category": "womens-dresses",
+      "colors": ["#FF00FF", "#FF00FF"],
       "thumbnail": "https://i.dummyjson.com/data/products/42/thumbnail.jpg",
       "images": [
         "https://i.dummyjson.com/data/products/42/1.png",
@@ -785,6 +893,7 @@
       "stock": 150,
       "brand": "Ghazi Fabric",
       "category": "womens-dresses",
+      "colors": ["#FF0000", "#FF00FF", "#FF00FF", "#FFFF00"],
       "thumbnail": "https://i.dummyjson.com/data/products/43/thumbnail.jpg",
       "images": [
         "https://i.dummyjson.com/data/products/43/1.jpg",
@@ -804,6 +913,7 @@
       "stock": 2,
       "brand": "Ghazi Fabric",
       "category": "womens-dresses",
+      "colors": ["#FF00FF", "#0000FF", "#FF0000"],
       "thumbnail": "https://i.dummyjson.com/data/products/44/thumbnail.jpg",
       "images": [
         "https://i.dummyjson.com/data/products/44/1.jpg",
@@ -823,6 +933,7 @@
       "stock": 96,
       "brand": "IELGY",
       "category": "womens-dresses",
+      "colors": ["#FF0000", "#FF00FF", "#00FF00"],
       "thumbnail": "https://i.dummyjson.com/data/products/45/thumbnail.jpg",
       "images": [
         "https://i.dummyjson.com/data/products/45/1.jpg",
@@ -842,6 +953,7 @@
       "stock": 72,
       "brand": "IELGY fashion",
       "category": "womens-shoes",
+      "colors": ["#FF00FF"],
       "thumbnail": "https://i.dummyjson.com/data/products/46/thumbnail.jpg",
       "images": [
         "https://i.dummyjson.com/data/products/46/1.webp",
@@ -861,6 +973,7 @@
       "stock": 50,
       "brand": "Synthetic Leather",
       "category": "womens-shoes",
+      "colors": ["#FFFF00", "#FF0000", "#00FF00"],
       "thumbnail": "https://i.dummyjson.com/data/products/47/thumbnail.jpeg",
       "images": [
         "https://i.dummyjson.com/data/products/47/1.jpg",
@@ -879,6 +992,7 @@
       "stock": 25,
       "brand": "Sandals Flip Flops",
       "category": "womens-shoes",
+      "colors": ["#FFFF00"],
       "thumbnail": "https://i.dummyjson.com/data/products/48/thumbnail.jpg",
       "images": [
         "https://i.dummyjson.com/data/products/48/1.jpg",
@@ -898,6 +1012,7 @@
       "stock": 107,
       "brand": "Maasai Sandals",
       "category": "womens-shoes",
+      "colors": ["#FFFF00"],
       "thumbnail": "https://i.dummyjson.com/data/products/49/thumbnail.jpg",
       "images": [
         "https://i.dummyjson.com/data/products/49/1.jpg",
@@ -916,6 +1031,7 @@
       "stock": 46,
       "brand": "Arrivals Genuine",
       "category": "womens-shoes",
+      "colors": ["#00FFFF", "#FFFF00", "#0000FF"],
       "thumbnail": "https://i.dummyjson.com/data/products/50/thumbnail.jpg",
       "images": [
         "https://i.dummyjson.com/data/products/50/1.jpeg",
@@ -933,6 +1049,7 @@
       "stock": 132,
       "brand": "Vintage Apparel",
       "category": "mens-shirts",
+      "colors": ["#FFFF00", "#FF0000", "#FF0000"],
       "thumbnail": "https://i.dummyjson.com/data/products/51/thumbnail.jpg",
       "images": [
         "https://i.dummyjson.com/data/products/51/1.png",
