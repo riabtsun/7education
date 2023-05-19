@@ -191,6 +191,20 @@ section {
   height: 20px;
 }
 
+.pagination {
+  display: flex;
+  list-style-type: none;
+}
+.pagination__item {
+  padding: 8px;
+  margin: 8px;
+  cursor: pointer;
+}
+.pagination__item--active {
+  font-weight: 700;
+  color: red;
+}
+
 .brand {
   font-family: inherit;
   font-size: 1.6rem;
@@ -690,6 +704,7 @@ section {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  width: 100%;
 }
 @media (width >= 768px) {
   .catalog .product-card {

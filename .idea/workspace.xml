@@ -7,12 +7,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="117478c1-fc5e-4432-a9c3-f30e34bbaa69" name="Changes" comment="added colors to product card">
+    <list default="true" id="117478c1-fc5e-4432-a9c3-f30e34bbaa69" name="Changes" comment="started create search in catalog">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JS/10-mini-shop/pages/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/10-mini-shop/pages/catalog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JS/10-mini-shop/pages/catalog.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/10-mini-shop/pages/catalog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/10-mini-shop/sass/_ui.sass" beforeDir="false" afterPath="$PROJECT_DIR$/JS/10-mini-shop/sass/_ui.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JS/10-mini-shop/sass/catalog/_catalog.sass" beforeDir="false" afterPath="$PROJECT_DIR$/JS/10-mini-shop/sass/catalog/_catalog.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/10-mini-shop/sass/layout/_header.sass" beforeDir="false" afterPath="$PROJECT_DIR$/JS/10-mini-shop/sass/layout/_header.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JS/10-mini-shop/sass/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/JS/10-mini-shop/sass/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JS/10-mini-shop/sass/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/JS/10-mini-shop/sass/main.css.map" afterDir="false" />
     </list>
@@ -128,7 +128,7 @@
       <workItem from="1684130404443" duration="34588000" />
       <workItem from="1684304968536" duration="30138000" />
       <workItem from="1684415637771" duration="16698000" />
-      <workItem from="1684489123953" duration="3331000" />
+      <workItem from="1684489123953" duration="10480000" />
     </task>
     <task id="LOCAL-00001" summary="second homework">
       <created>1673890664371</created>
@@ -298,7 +298,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684482224944</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="started create search in catalog">
+      <created>1684496508366</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1684496508366</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,7 +313,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="second homework" />
     <MESSAGE value="third js hw" />
     <MESSAGE value="fourth js hw" />
     <MESSAGE value="fifth js hw" />
@@ -331,6 +337,7 @@
     <MESSAGE value="finished input filter" />
     <MESSAGE value="updated colors in database" />
     <MESSAGE value="added colors to product card" />
-    <option name="LAST_COMMIT_MESSAGE" value="added colors to product card" />
+    <MESSAGE value="started create search in catalog" />
+    <option name="LAST_COMMIT_MESSAGE" value="started create search in catalog" />
   </component>
 </project>

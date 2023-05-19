@@ -3,8 +3,48 @@ const catalog = document.querySelector('.catalog');
 const catalogSearch = document.querySelector('.filterSearch-input');
 let [...allProducts] = dataBase.products;
 
-const showAllProducts = (data) => {
-  data.forEach((item, idx) => {
+let currentPage = 1;
+let rows = 10;
+const showAllProducts = async (data, rowPerPage, page) => {
+  catalog.innerHTML = '';
+  page--;
+
+  const start = rowPerPage * page;
+  const end = start + rowPerPage;
+
+  const paginatedData = data.slice(start, end);
+
+  function displayPagination(data, rowPerPage) {
+    const paginationEl = document.querySelector('.pagination');
+    const pagesCount = Math.ceil(data.length / rowPerPage);
+    const ulEl = document.createElement('ul');
+    ulEl.classList.add('pagination__list');
+    for (let i = 0; i < pagesCount; i++) {
+      const liEl = displayPaginationBtn(i + 1);
+      ulEl.append(liEl);
+    }
+    paginationEl.append(ulEl);
+  }
+
+  function displayPaginationBtn(page) {
+    const liEl = document.createElement('li');
+    liEl.classList.add('pagination__item');
+    liEl.innerText = page;
+
+    currentPage === page && liEl.classList.add('pagination__item--active');
+
+    liEl.addEventListener('click', () => {
+      currentPage = page;
+      showAllProducts(data, rows, currentPage);
+      let currentItemLi = document.querySelector('.pagination__item--active');
+      currentItemLi.classList.remove('pagination__item--active');
+      liEl.classList.add('pagination__item--active');
+    });
+    return liEl;
+  }
+  displayPagination(data, rowPerPage);
+
+  await paginatedData.forEach((item, idx) => {
     const {
       brand,
       description,
@@ -46,13 +86,13 @@ const showAllProducts = (data) => {
 };
 
 catalogSearch.addEventListener('keyup', (e) => {
+  catalog.innerHTML = ``;
   let sortedProducts = allProducts.filter((product) => {
     return product.title.toUpperCase().includes(e.target.value.toUpperCase());
   });
-  console.log(sortedProducts);
-  showAllProducts(sortedProducts);
+  showAllProducts(sortedProducts, rows, currentPage);
 });
 
 if (catalogSearch.value === '') {
-  showAllProducts(allProducts);
+  showAllProducts(allProducts, rows, currentPage);
 }
