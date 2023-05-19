@@ -1,5 +1,6 @@
 import dataBase from '../db.json' assert { type: 'json' };
 const catalog = document.querySelector('.catalog');
+const catalogSearch = document.querySelector('.filterSearch-input');
 let [...allProducts] = dataBase.products;
 
 const showAllProducts = (data) => {
@@ -43,4 +44,15 @@ const showAllProducts = (data) => {
     });
   });
 };
-showAllProducts(allProducts);
+
+catalogSearch.addEventListener('keyup', (e) => {
+  let sortedProducts = allProducts.filter((product) => {
+    return product.title.toUpperCase().includes(e.target.value.toUpperCase());
+  });
+  console.log(sortedProducts);
+  showAllProducts(sortedProducts);
+});
+
+if (catalogSearch.value === '') {
+  showAllProducts(allProducts);
+}

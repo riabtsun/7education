@@ -7,9 +7,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="117478c1-fc5e-4432-a9c3-f30e34bbaa69" name="Changes" comment="finished input filter">
+    <list default="true" id="117478c1-fc5e-4432-a9c3-f30e34bbaa69" name="Changes" comment="added colors to product card">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/10-mini-shop/js/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/10-mini-shop/js/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/10-mini-shop/pages/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/10-mini-shop/pages/catalog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/10-mini-shop/pages/catalog.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/10-mini-shop/pages/catalog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/10-mini-shop/sass/catalog/_catalog.sass" beforeDir="false" afterPath="$PROJECT_DIR$/JS/10-mini-shop/sass/catalog/_catalog.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JS/10-mini-shop/sass/layout/_header.sass" beforeDir="false" afterPath="$PROJECT_DIR$/JS/10-mini-shop/sass/layout/_header.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JS/10-mini-shop/sass/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/JS/10-mini-shop/sass/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JS/10-mini-shop/sass/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/JS/10-mini-shop/sass/main.css.map" afterDir="false" />
@@ -125,7 +127,8 @@
       <workItem from="1683527807246" duration="13149000" />
       <workItem from="1684130404443" duration="34588000" />
       <workItem from="1684304968536" duration="30138000" />
-      <workItem from="1684415637771" duration="2977000" />
+      <workItem from="1684415637771" duration="16698000" />
+      <workItem from="1684489123953" duration="3331000" />
     </task>
     <task id="LOCAL-00001" summary="second homework">
       <created>1673890664371</created>
@@ -274,7 +277,28 @@
       <option name="project" value="LOCAL" />
       <updated>1684415651749</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="finished input filter">
+      <created>1684418651057</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1684418651057</updated>
+    </task>
+    <task id="LOCAL-00023" summary="updated colors in database">
+      <created>1684422087788</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1684422087789</updated>
+    </task>
+    <task id="LOCAL-00024" summary="added colors to product card">
+      <created>1684482224944</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1684482224944</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,6 +329,8 @@
     <MESSAGE value="added new section" />
     <MESSAGE value="started create input filter" />
     <MESSAGE value="finished input filter" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished input filter" />
+    <MESSAGE value="updated colors in database" />
+    <MESSAGE value="added colors to product card" />
+    <option name="LAST_COMMIT_MESSAGE" value="added colors to product card" />
   </component>
 </project>
