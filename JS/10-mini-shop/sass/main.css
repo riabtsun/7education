@@ -136,6 +136,7 @@ section {
 @media (width >= 768px) {
   .product-card {
     padding: 32px 50px;
+    width: 23%;
   }
 }
 .product-card__thumbnail {
@@ -177,6 +178,17 @@ section {
     font-size: 18px;
     line-height: 27px;
   }
+}
+.product-card__colors {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  margin-top: 24px;
+  margin-bottom: 30px;
+}
+.product-card__colors-item {
+  width: 20px;
+  height: 20px;
 }
 
 .brand {
