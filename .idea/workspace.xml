@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="117478c1-fc5e-4432-a9c3-f30e34bbaa69" name="Changes" comment="fourth js hw">
-      <change afterPath="$PROJECT_DIR$/JS/5/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/5/script.js" afterDir="false" />
+    <list default="true" id="117478c1-fc5e-4432-a9c3-f30e34bbaa69" name="Changes" comment="6 js hw">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/4/4.2/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/4/4.2/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +59,7 @@
       <recent name="D:\Frontend\На изучение\7education\2\2.1" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.scratch.js">
     <configuration name="scratch.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$APPLICATION_CONFIG_DIR$/scratches/scratch.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -98,6 +95,9 @@
       <workItem from="1680519650393" duration="3630000" />
       <workItem from="1681462210898" duration="9298000" />
       <workItem from="1681474016493" duration="1145000" />
+      <workItem from="1681707965657" duration="74000" />
+      <workItem from="1681750215113" duration="2144000" />
+      <workItem from="1683820562780" duration="84000" />
     </task>
     <task id="LOCAL-00001" summary="second homework">
       <created>1673890664371</created>
@@ -113,7 +113,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680519509920</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="5 js hw">
+      <created>1681708024177</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681708024177</updated>
+    </task>
+    <task id="LOCAL-00004" summary="6 js hw">
+      <created>1681756665189</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1681756665189</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +138,8 @@
     <MESSAGE value="second homework" />
     <MESSAGE value="third js hw" />
     <MESSAGE value="fourth js hw" />
-    <option name="LAST_COMMIT_MESSAGE" value="fourth js hw" />
+    <MESSAGE value="5 js hw" />
+    <MESSAGE value="6 js hw" />
+    <option name="LAST_COMMIT_MESSAGE" value="6 js hw" />
   </component>
 </project>
