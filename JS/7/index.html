@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            font-size: 1.3rem;
+        }
+
+        pre {
+            background: silver;
+
+        }
+
+        .green {
+            color: green;
+        }
+
+        li:nth-child(odd) {
+            background: #e1e6e5;
+            margin: 1rem 0;
+        }
+
+        .secondTask {
+            padding: 20px;
+            display: flex;
+            gap: 10px;
+        }
+
+        .secondTaskDiv {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+<ol>
+
+    <li>Створіть 2 інпути та одну кнопку. Зробіть так, щоб інпути обмінювалися вмістом.
+
+    </li>
+    <li>
+        Створіть 5 див на сторінці потім використовуючи getElementsByTagName і forEath поміняйте дивам колір фону.
+
+
+    </li>
+    <li>
+        Створіть багаторядкове поле для введення тексту та кнопки. Після натискання кнопки користувачем програма повинна
+        згенерувати тег div з текстом, який був у багаторядковому полі. багаторядкове поле слід очистити після
+        переміщення інформації
+    </li>
+    <li>
+        Створіть картинку та кнопку з назвою "Змінити картинку"
+        зробіть так щоб при завантаженні сторінки була картинка
+        https://itproger.com/img/courses/1476977240.jpg
+        При натисканні на кнопку вперше картинка замінилася на
+        https://itproger.com/img/courses/1476977488.jpg
+        при другому натисканні щоб картинка замінилася на
+        https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png
+    </li>
+    <li>
+        Створює на сторінці 10 парахрафів і зробіть так, щоб при натисканні на параграф він зникав
+
+    </li>
+    <li>
+        Зробити робочими кнопки з виводом відповідних дій на сторінку приклад 008_DOM
+    </li>
+</ol>
+<div>
+    <h2>1 task</h2>
+    <input type="text" name="" id="input1">
+    <input type="text" name="" id="input2">
+    <button id="changeBtn">Change inputs value</button>
+</div>
+<div class="secondTask">
+    <h2>2 task</h2>
+    <div class="secondTaskDiv"></div>
+    <div class="secondTaskDiv"></div>
+    <div class="secondTaskDiv"></div>
+    <div class="secondTaskDiv"></div>
+    <div class="secondTaskDiv"></div>
+</div>
+<div class="thirdTask">
+    <h2>3 task</h2>
+    <input type="text" class="thirdTaskInput">
+    <button class="createBlockBtn">Create div</button>
+
+</div>
+<div class="fourthTask">
+    <h2>4 task</h2>
+    <img class="resetImage" src="" alt="img">
+    <button class="changeImg">change img</button>
+
+</div>
+<div class="fifthTask">
+    <h2>6 task</h2>
+    <p class="paragraph">Lorem ipsum dolor sit amet.</p>
+    <p class="paragraph">Explicabo maxime quasi quidem rerum.</p>
+    <p class="paragraph">Blanditiis illo modi provident tempora?</p>
+    <p class="paragraph">Doloribus repellat sequi voluptate voluptatem!</p>
+    <p class="paragraph">Adipisci asperiores est ex unde.</p>
+    <p class="paragraph">Exercitationem, odio vitae? Dolores, laborum.</p>
+    <p class="paragraph">Doloribus labore pariatur praesentium unde.</p>
+    <p class="paragraph">Doloribus numquam quasi ratione vitae!</p>
+    <p class="paragraph">Unde, voluptatibus voluptatum? Consequuntur, tempora.</p>
+    <p class="paragraph">Aliquid explicabo in nemo nostrum.</p>
+</div>
+<div class="sixthTask">
+    <h2>6 task</h2>
+    <ul id="list">
+        <li>List Item 1</li>
+        <li>List Item 2</li>
+        <li>List Item 3</li>
+        <li>List Item 4</li>
+        <li>List Item 5</li>
+    </ul>
+    <br/>
+    <input type="button" onclick="selectFirstChild()" style="width: 300px;"
+           value="Выбрать первый элемент"/><br/>
+    <input type="button" onclick="selectLastChild()" style="width: 300px;"
+           value="Выбрать последний элемент"/><br/>
+    <input type="button" onclick="selectNextNode()" style="width: 300px;"
+           value="Выбрать следующий элемент"/><br/>
+    <input type="button" onclick="selectPrevNode()" style="width: 300px;"
+           value="Выбрать предыдущий элемент"/><br/>
+    <input type="button" onclick="createNewChild()" style="width: 300px;"
+           value="Добавить элемент"/><br/>
+    <input type="button" onclick="removeLastChild()" style="width: 300px;"
+           value="Удалить элемент"/><br/>
+    <input type="button" onclick="createNewChildAtStart()" style="width: 300px;"
+           value="Добавить  в начало"/><br/>
+</div>
+<script src="script.js"></script>
+<script>
+  const list = document.querySelector('#list')
+  let counter = 0
+  selectFirstChild = () => {
+    list.children[0].style.background !== 'red' ? list.children[0].style.background = 'red' : list.children[0].style.background = 'inherit'
+  }
+  selectLastChild = () => {
+    list.children[list.children.length - 1].style.background !== 'red' ?
+      list.children[list.children.length - 1].style.background = 'red' :
+      list.children[list.children.length - 1].style.background = 'inherit'
+  }
+  selectNextNode=()=>{
+    list.children[counter].style.background !== 'red' ?
+      list.children[counter].style.background = 'red' :
+      list.children[counter].style.background = 'inherit'
+    counter+=1
+  }
+  selectPrevNode=()=>{
+    list.children[counter].style.background !== 'red' ?
+      list.children[counter].style.background = 'red' :
+      list.children[counter].style.background = 'inherit'
+    counter-=1
+  }
+  createNewChild=()=>{
+    let newItemList = document.createElement('li')
+    newItemList.innerHTML = `list item ${list.children.length+1}`
+    list.append(newItemList)
+  }
+  removeLastChild=()=>{
+     list.children[list.children.length-1].remove()
+  }
+  createNewChildAtStart=()=>{
+    let newListItem = document.createElement('li')
+    newListItem.innerHTML = `new list item`
+    let theFirstChild = list.firstChild
+    list.insertBefore(newListItem, theFirstChild)
+  }
+
+</script>
+</body>
+</html>
