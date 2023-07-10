@@ -195,6 +195,10 @@ section {
   display: flex;
   list-style-type: none;
 }
+.pagination__list {
+  display: flex;
+  justify-content: flex-end;
+}
 .pagination__item {
   padding: 8px;
   margin: 8px;

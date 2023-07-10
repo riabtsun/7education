@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport'
+        content='width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0'>
+  <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+  <link rel='preconnect' href='https://fonts.googleapis.com'>
+  <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
+  <link rel='preconnect' href='https://fonts.googleapis.com'>
+  <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
+  <link href='https://fonts.googleapis.com/css2?family=Karla:wght@700&family=Roboto:wght@400;500&display=swap'
+        rel='stylesheet'>
+  <link rel='stylesheet' href='sass/styles.css'>
+  <title>Rick and Morty</title>
+</head>
+<body>
+<header>
+  <div class='header container'>
+    <a class='header__logo' href='/'>
+      <img class='header__image' src='img/logo-black.svg' alt='logo'>
+    </a>
+    <ul class='nav-list'>
+      <li><a class='nav-list__link' href='/'>Characters</a></li>
+      <li><a class='nav-list__link' href='/'>Locations</a></li>
+      <li><a class='nav-list__link' href='/'>Episodes</a></li>
+    </ul>
+  </div>
+</header>
+<main>
+  <div class='container box'>
+    <div class='banner'>
+      <img src='img/rick-and-morty.png' alt='rick and morty'>
+    </div>
+    <div class='search'>
+      <input type='search' placeholder='Filter by name or episode (ex. S01 or S01E02)'>
+    </div>
+    <div class='cards'></div>
+  </div>
+</main>
+<script src='script.js'></script>
+</body>
+</html>
