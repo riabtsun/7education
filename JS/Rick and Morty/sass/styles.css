@@ -60,14 +60,16 @@ header {
   display: flex;
   gap: 1rem;
   padding: 65px 0;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .card {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   width: 250px;
-  height: 120px;
   border-radius: 4px;
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.14), 0px 3px 4px 0px rgba(0, 0, 0, 0.12), 0px 1px 5px 0px rgba(0, 0, 0, 0.2);
   cursor: pointer;
@@ -75,6 +77,47 @@ header {
 }
 .card:hover {
   background-color: #e5e5e5;
+}
+.card img {
+  width: 100%;
+}
+
+.box-modal {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.459);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-modal.active {
+  display: flex;
+}
+
+.modal {
+  width: 800px;
+  min-height: 500px;
+  overflow: auto;
+  padding: 1rem;
+  border-radius: 8px;
+  position: relative;
+  background-color: #fff;
+  word-break: break-all;
+}
+
+#modal-close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+  transition: 0.3s linear;
+}
+#modal-close:hover {
+  transform: scale(1.1);
 }
 
 * {

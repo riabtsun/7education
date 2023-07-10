@@ -1,9 +1,7 @@
 const url = 'https://rickandmortyapi.com/api';
 
 async function getData(url, method = 'GET') {
-  const data = await fetch(url, {
-    method,
-  });
+  const data = await fetch(url, { method });
   return data.json();
 }
 
@@ -16,11 +14,12 @@ getData(url).then((info) => {
 });
 
 function createCard(element) {
+  const [key] = element
   const card = document.createElement('div');
-  card.innerText = element[0];
+  card.innerText = key;
   card.className = 'card';
   card.addEventListener('click', () => {
-    window.open(element[1]);
+    window.open(`/page/index.html?${key}`);
   });
   document.querySelector('.cards').append(card);
 }
