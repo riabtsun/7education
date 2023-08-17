@@ -14,7 +14,7 @@ getData(url).then((info) => {
 });
 
 function createCard(element) {
-  const [key] = element
+  const [key] = element;
   const card = document.createElement('div');
   card.innerText = key;
   card.className = 'card';
