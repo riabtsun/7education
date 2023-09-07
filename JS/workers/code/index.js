@@ -1,7 +1,7 @@
 class Worker {
   static counter = 0;
   static index = 12345;
-  constructor(name, surname, phone, position, data) {
+  constructor(name, surname, phone, position, date) {
     Worker.counter++;
     this.name = name;
     this.surname = surname;
